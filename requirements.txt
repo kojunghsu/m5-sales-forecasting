@@ -1,0 +1,16 @@
+# Core
+numpy
+pandas
+pyarrow
+
+# Modeling
+lightgbm
+scikit-learn
+optuna
+
+# Deep learning (04b_model_exploration_gru.ipynb only)
+tensorflow
+
+# Utilities
+matplotlib
+tqdm

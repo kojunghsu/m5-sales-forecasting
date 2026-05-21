@@ -1,0 +1,7 @@
+Model,Type,RMSE,MAE,WRMSSE_proxy,Notes
+LightGBM (Tuned),Gradient Boosting,2.0025,1.0111,,Best model; Optuna trial 37; 18 features; 152 iterations
+Random Forest,Ensemble Tree,2.0802,1.032,0.8019,"n_estimators=300, max_depth=20"
+Ridge Regression,Linear,2.118,1.051,0.8202,alpha=0.5
+GRU (RNN),Deep Learning,2.2584,1.1492,0.8631,"seq_len=28, units=32, dropout=0.10; stopped at epoch 3"
+LightGBM Baseline (E0),Gradient Boosting,2.1619,1.0165,,14 features; no tuning; reference baseline
+LightGBM (E7+E1 features),Gradient Boosting,2.1322,1.0111,,17 features; before Optuna tuning
